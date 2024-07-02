@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: hsl(27, 66%, 92%);
+    height: 100vh;
+}
+
+.main-container {
+    transform: translate(135%, 28%);
+    width: 380px;
+}
+
+header {
+    align-items: center;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.balance {
+    color: white;
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+.amount {
+    color: white;
+    font-size: 21px;
+    margin: 3px 0;
+}
+
+.logo img {
+    width: 75%;
+}
+
+.container-i {
+    background-color: hsl(33, 100%, 98%);
+    border-radius: 15px;
+    margin: 15px 0;
+    padding: 23px 0;
+}
+
+.container-ii {
+    margin: 0 auto;
+    width: 350px;
+}
+
+.sub-head {
+    color: hsl(25, 47%, 15%);
+    font-size: 21px;
+    font-weight: 550;
+}
+
+.days-bar {
+    display: flex;
+    flex-direction: row;
+    height: 22vh;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+}
+
+.days-bar p {
+    background-color: hsl(25, 47%, 15%);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    display: none;
+    font-size: 12px;
+    margin: 6px 0;
+    padding: 5px;
+}
+
+.mon-contr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mon-bar {
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 3px;
+    height: 4.4vh;
+    width: 32px;
+}
+
+.tue-contr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tue-bar {
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 3px;
+    height: 9vh;
+    width: 32px;
+}
+
+.wed-contr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wed-bar {
+    background-color: hsl(186, 34%, 60%);
+    border-radius: 3px;
+    height: 14vh;
+    width: 32px;
+}
+
+.wed-bar:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.thur-contr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thur-bar {
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 3px;
+    height: 7.5vh;
+    width: 32px;
+}
+
+.thur-bar:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+.fri-contr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fri-bar {
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 3px;
+    height: 5.5vh;
+    width: 32px;
+}
+
+.sat-contr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sat-bar {
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 3px;
+    height: 10.5vh;
+    width: 32px;
+}
+
+.sun-contr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sun-bar {
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 3px;
+    height: 6.4vh;
+    width: 32px;
+}
+
+.days-of-the-week {
+    margin: 3px 0;
+}
+
+.days-of-the-week ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+}
+
+.days-of-the-week li {
+    color: hsl(28, 10%, 53%);
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    width: 30px;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer p {
+    color: hsl(28, 10%, 53%);
+    ;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.footer h4 {
+    color: hsl(25, 47%, 15%);
+    font-size: 30px;
+}
+
+.footer-ii {
+    text-align: right;
+}
+
+.footer-ii .p-i {
+    color: hsl(25, 47%, 15%);
+    font-size: 13px;
+    font-weight: 550;
+}
+
+/* RESPONSIVE STYLES */
+
+@media screen and (max-width: 375px) {
+    
+    .main-container {
+        transform: translate(5%, 28%);
+        width: 330px;
+    }
+
+    .container-ii {
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    .days-of-the-week li {
+        width: 35.85px;
+    }
+
+
+}
